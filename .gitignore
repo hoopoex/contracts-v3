@@ -1,0 +1,28 @@
+node_modules
+.env
+.vscode
+
+# Hardhat files
+/cache
+/artifacts
+
+# TypeChain files
+/typechain
+/typechain-types
+/types
+
+# solidity-coverage files
+/coverage
+/coverage.json
+
+# priv
+/libs
+/tasks
+/test
+/scripts
+/package-lock-json
+/scripts/testnet
+/contracts/external
+/contracts/tokens
+/contracts/libraries
+/contracts/internal/core

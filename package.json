@@ -1,0 +1,39 @@
+{
+  "name": "hoopx-contracts-v3",
+  "version": "1.0.0",
+  "description": "Ready-to-use solid project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate-merkle-root": "ts-node scripts/generate-merkle-root.ts",
+    "generate-merkle-root:hoop": "ts-node scripts/merkle/generate-merkle-root.ts --input scripts/merkle/balances.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoopoex/contracts-v3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hoopoex/contracts-v3/issues"
+  },
+  "homepage": "https://github.com/hoopoex/contracts-v3#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "commander": "^6.1.0",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.14.0"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-etherscan": "^3.1.8",
+    "@nomiclabs/hardhat-web3": "^2.0.0",
+    "@openzeppelin/contracts": "^5.0.2",
+    "@solidstate/contracts": "^0.0.59",
+    "@uniswap/v2-periphery": "^1.1.0-beta.0",
+    "dotenv": "^16.0.3",
+    "hardhat-contract-sizer": "^2.8.0",
+    "hardhat-diamond-abi": "^3.0.1",
+    "viem": "^2.9.18"
+  }
+}
